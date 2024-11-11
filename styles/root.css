@@ -1,0 +1,8 @@
+:root {
+    --primary: rgb(75, 0, 75);
+    --text-primary: blanchedalmond;
+    --bg: rgb(54, 54, 54);
+    --bg-t: rgba(54, 54, 54, 0.65);
+
+    --font-size: var(--font-size);
+}

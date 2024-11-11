@@ -1,0 +1,75 @@
+/* fixed header */
+
+@import "../../styles/root.css";
+
+* {
+    box-sizing: border-box;
+    color: var(--text-primary);
+    margin: 0;
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* added position sticky and top 0 to set header to sticky and top */
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer min-height to keep it from shrinking */
+footer{
+    background-color: var(--primary);
+    display: flex;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}  
+
+/* to make elements wrap */
+
+/* height is set with javascript */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    position: static;
+}
+
+main {
+    flex: 1;
+}
+
+
+/* input for dynamic height */
+div {
+    margin: 25px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    color: black;
+}
+
+
+/* back link */
+header a{
+    width: 10px;
+    margin: 0 auto 0 10px;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0 auto 0 0;
+}

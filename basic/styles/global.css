@@ -1,0 +1,62 @@
+/* basic wrapper */
+@import "../../styles/root.css";
+
+
+* {
+    box-sizing: border-box;
+    color: var(--text-primary);
+    margin: 0;
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--bg);
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--primary);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    background-color: var(--primary);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}  
+
+/* to make elements wrap */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    overflow: scroll;
+}
+
+
+/* scroll content */
+section {
+    height: 2000px;
+}
+
+
+
+/* back link */
+header a{
+    width: 10px;
+    margin: 0 auto 0 10px;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0 auto 0 0;
+}
